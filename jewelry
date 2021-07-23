@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://kit.fontawesome.com/15dcbed7bd.js" crossorigin="anonymous"></script>
+<link 
+rel="stylesheet"
+href="/Users/Idndn/projects/verde/style.css"
+/>
+<!-- Logo  -->
+<div id= "page-wrapper">
+    <header id="header">
+        <div class="logo">
+            <img
+                id="header-img"
+                src="/Users/Idndn/projects/verde/logo/logo.png"
+                alt=""
+                />
+        </div>
+ <!-- End logo-->
+ <!-- Start nav bar -->
+    
+    <nav id= "nav-bar">
+        <ul>
+            <li><a class="nav-link"
+                href="#features">Features</a>
+            </li>
+
+            <li><a class="nav-link"
+                href="#how-it-works">How It Works</a>
+            </li>
+
+            <li><a class="nav-link"
+                href="#pricing">Pricing</a>
+            </li>
+        </ul>
+        </nav> 
+        <!--End Nav Bar-->
+    </header>
+<!--Start email box-->
+<section id="hero">
+    <h2>
+        Handcrafted, custom masterpieces
+    </h2>
+    <form id="form"
+    action=""> 
+        <input 
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+        /> 
+        <input id="submit"
+        type="submit"
+        value="Get Started!"
+        class="btn"
+        />    
+    </form>
+    </section>
+<!-- End email Box-->
+<!-- Start Body-->
+<div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Premium Materials</h2>
+          <p>
+            We only use the the highest quality gold and diamonds. All of our materials are lab tested and certified. We use a minimum of 18 karat gold and VV diamond.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            We make sure you recieve your custom piece faster then any jewler in town. We also provide free lifetime polishing for all of our pieces.
+          </p>
+        </div>
+        </div>
+     <div class="grid">
+        <div class="icon"><i class="far fa-gem"></i>
+        </div>
+        <div class="desc">
+            <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages or
+                faults and we will check and test the quality and integrity of your custom piece.
+              </p>
+            </div>
+          </div>
+        </section>
+ <!-- End body-->
+ <!-- Start youtube video-->
+ <section id="how-it-works">
+    <iframe
+    id="video"
+     width="560"
+      height="315"
+       src="https://www.youtube.com/embed/nJSEpDcBiTk"
+        title="YouTube video player"
+         frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+           allowfullscreen></iframe>
+ </section>
+ <!--End youtube Video -->
+ <!-- Start pricing section-->
+<section id="pricing">
+ <div class="product"
+    id="gold-grill">
+    <div class="level">Custom 18k Gold Grill</div>
+    <h2>$699</h2>
+    <ol>
+        <li>Lab-tested 18k Gold</li>
+        <li>Guarenteed Fit</li>
+        <li>Custom Design</li>
+        <li>Lifetime Polishing</li>
+    </ol>
+    <button
+    class="btn">Select</button>
+    </div>
+
+ <div class="product"
+    id="custom-pendant">
+    <div class="level">Custom 18k Gold Pendant</div>
+    <h2>$999</h2>
+    <ol>
+        <li>Lab-tested 18k Gold</li>
+        <li>Fits All Chains</li>
+        <li>Diamond Upgrade Available</li>
+        <li>Lifetime Polishing</li>
+    </ol>
+    <button
+    class="btn">Select</button>
+    </div>
+
+    <div class="product"
+    id="gold-grill">
+    <div class="level">Custom 18k Golf Chain & Pendant</div>
+    <h2>$1299</h2>
+    <ol>
+        <li>Lab-tested 18k Gold</li>
+        <li>Guarenteed Fit</li>
+        <li>Custom Design</li>
+        <li>Lifetime Polishing</li>
+    </ol>
+    <button
+    class="btn">Select</button>
+    </div>
+</section>
+<!--End pricing section-->
+<!-- Start footer-->
+<footer>
+    <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2021, Justin Hamza</span>
+</footer>
+</div>
+</div>
+</html>
