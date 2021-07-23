@@ -1,4 +1,3 @@
-/* Custom properties/variables  */
 :root {
     --main-white: #f0f0f0;
     --main-red: #c33124;
@@ -22,7 +21,14 @@
   html {
     box-sizing: border-box;
   
-    
+  
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  
+  
+  
   @media (max-width: 75em) {
     html {
       font-size: 60%;
@@ -43,7 +49,7 @@
     }
   }
   
-  
+  /* Base styles */
   
   body {
     font-family: 'Poppins', sans-serif;
@@ -82,7 +88,7 @@
     width: 100%;
   }
   
-  /* nav */
+  
   
   .nav {
     display: flex;
